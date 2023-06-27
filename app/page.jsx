@@ -2,7 +2,7 @@
 import axios from "axios";
 import "./globals.css";
 import { useState, useEffect } from "react";
-import { UserList } from "./userList";
+import { UserList } from "./UserList";
 
 function App() {
   const [users, setusers] = useState([]);
